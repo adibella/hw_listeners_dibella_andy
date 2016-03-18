@@ -4,7 +4,7 @@ var header = document.getElementsByTagName( 'h1' );
 
 header.addEventListener( 'click', function() {
 	var article = document.createElement( 'article' );
-	article.innerHTML = '<p>You clicked the header!</p>';
+	article.innerHTML = '<h3>You clicked the header!</h3>';
 	document.getElementById( 'container' ).appendChild( article );
 
 } );
