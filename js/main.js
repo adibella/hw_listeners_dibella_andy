@@ -1,8 +1,8 @@
 // Add new article and text when the h1 element is clicked
 
-var headline = document.getElementsByTagName( 'h1' );
+var header = document.getElementsByTagName( 'h1' );
 
-headline.addEventListener( 'click', function() {
+header.addEventListener( 'click', function() {
 	var article = document.createElement( 'article' );
 	article.innerHTML = '<p>You clicked the header!</p>';
 	document.getElementById( 'container' ).appendChild( article );
