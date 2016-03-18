@@ -14,8 +14,7 @@ head.addEventListener( 'click', function() {
 var uno = document.getElementById( 'uno' );
 
 uno.addEventListener( 'keypress', function() {
-	document.innerHTML = '<input type="date">';
-	document.getElementsByTagName( 'h2' ).appendChild( h1 );
+	document.body.innerHTML = '<input type="date">';
 
 } );
 
