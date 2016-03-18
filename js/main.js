@@ -27,4 +27,4 @@ dos.addEventListener( 'mouseover', function() {
 	var change = document.getElementById( 'dos' );
 	change.className = 'colorchange';
 
-} )
+} );
