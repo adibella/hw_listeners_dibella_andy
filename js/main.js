@@ -1,4 +1,4 @@
-var listen = document.getElementsByTagName( 'h1' );
+var listen = document.getElementsByTagName( 'h1' )[0];
 var num = 0;
 
 listen.addEventListener( 'click', function() {
